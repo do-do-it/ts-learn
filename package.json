@@ -1,0 +1,29 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "start my typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --content-base ./dist",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-do-it/ts-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do-do-it/ts-learn/issues"
+  },
+  "homepage": "https://github.com/do-do-it/ts-learn#readme",
+  "devDependencies": {
+    "ts-loader": "^6.0.3",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
