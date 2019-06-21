@@ -1,0 +1,1 @@
+y = A sin(Bx + C) + D
